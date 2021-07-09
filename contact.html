@@ -1,106 +1,127 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <!-- bootstrapを読み込む -->
-  <link rel="stylesheet" href="./css/bootstrap.min.css" />
-  <meta charset="utf-8" />
-</head>
-<body>
-  <div style="background: #26b7c0; height: 60px">
-    <a style="text-decoration: none; color: white; font-size: 35px" href="index.html"
-      >Portfolio</a
-    >
-    <a
-      style="
-        color: darkslategray;
-        font-size: 35px;
-        float: right;
-        margin-right: 5px;
-      "
-      href="contact.html"
-      >Contact</a
-    >
-    <a
-      style="
-        color: darkslategray;
-        font-size: 35px;
-        float: right;
-        margin-right: 10px;
-      "
-      href="work.html"
-      >Work</a
-    >
-    <a
-      style="
-        color: darkslategray;
-        font-size: 35px;
-        float: right;
-        margin-right: 10px;
-      "
-      href="skill.html"
-      >Skill</a
-    >
-    <a
-      style="
-        color: darkslategray;
-        font-size: 35px;
-        float: right;
-        margin-right: 10px;
-      "
-      href="favorite.html"
-      >Favorite</a
-    >
-  </div>
-  <div style="margin-left: 10%; margin-right: 10%; margin-top: 50px">
-    <p style="text-align: center; font-weight: 700; color: blue" class="fs-2">
-      <span style="background: linear-gradient(transparent 60%, #ff6 60%)"
-        >Contact</span
+  <head>
+    <!-- bootstrapを読み込む -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <div style="background: #26b7c0; height: 60px">
+      <a
+        style="text-decoration: none; color: white; font-size: 35px"
+        href="index.html"
+        >Portfolio</a
       >
-    </p>
-
-    <form>
-      <div class="mb-3">
-        <label for="exampleDataList" class="form-label">ご用件</label>
-        <input
-          class="form-control"
-          list="datalistOptions"
-          id="exampleDataList"
-          placeholder="用件を選択"
-        />
-        <datalist id="datalistOptions">
-          <option value="取材"></option>
-          <option value="お仕事・ご依頼"></option>
-          <option value="質問"></option>
-          <option value="日程調整"></option>
-          <option value="その他"></option>
-        </datalist>
-
-        <label for="exampleInputEmail1" class="form-label"
-          >メールアドレス</label
+      <a
+        style="
+          color: darkslategray;
+          font-size: 35px;
+          float: right;
+          margin-right: 5px;
+        "
+        href="contact.html"
+        >Contact</a
+      >
+      <a
+        style="
+          color: darkslategray;
+          font-size: 35px;
+          float: right;
+          margin-right: 10px;
+        "
+        href="work.html"
+        >Work</a
+      >
+      <a
+        style="
+          color: darkslategray;
+          font-size: 35px;
+          float: right;
+          margin-right: 10px;
+        "
+        href="skill.html"
+        >Skill</a
+      >
+      <a
+        style="
+          color: darkslategray;
+          font-size: 35px;
+          float: right;
+          margin-right: 10px;
+        "
+        href="favorite.html"
+        >Favorite</a
+      >
+    </div>
+    <div style="margin-left: 10%; margin-right: 10%; margin-top: 50px">
+      <p style="text-align: center; font-weight: 700; color: blue" class="fs-2">
+        <span style="background: linear-gradient(transparent 60%, #ff6 60%)"
+          >Contact</span
         >
-        <input
-          type="email"
-          class="form-control"
-          id="exampleInputEmail1"
-          aria-describedby="emailHelp"
-        />
-        <div id="emailHelp" class="form-text">
-          k656437@kansai-u.ac.jpから折り返し連絡を送らせていただきます。
+      </p>
+
+      <form>
+        <div class="mb-3">
+          <label for="exampleDataList" class="form-label">ご用件</label>
+          <input
+            class="form-control"
+            list="datalistOptions"
+            id="exampleDataList"
+            placeholder="用件を選択"
+          />
+          <datalist id="datalistOptions">
+            <option value="取材"></option>
+            <option value="お仕事・ご依頼"></option>
+            <option value="質問"></option>
+            <option value="日程調整"></option>
+            <option value="その他"></option>
+          </datalist>
+
+          <label for="exampleInputEmail1" class="form-label"
+            >メールアドレス</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+          <div id="emailHelp" class="form-text">
+            k656437@kansai-u.ac.jpから折り返し連絡を送らせていただきます。
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputName1" class="form-label">お名前</label>
+          <input type="text" class="form-control" id="exampleInputName1" />
+        </div>
+
+        <a href="thank.html" class="btn btn-primary">送信</a>
+        <div id="Help" class="form-text">
+          デモのため、実際にデータは送信されません。決定ボタンを押すと次の画面に遷移します。
+        </div>
+      </form>
+
+      <div style="margin-top: 50px">
+        <p
+          style="text-align: center; font-weight: 700; color: blue"
+          class="fs-2"
+        >
+          <span style="background: linear-gradient(transparent 60%, #ff6 60%)"
+            >SNS</span
+          >
+        </p>
+        <div style="margin-left: 10%; margin-right: 10%">
+          <h3>Twitter</h3>
+          <p>@inoue2002</p>
+          <h3>GitHub</h3>
+          <p>inoue2002</p>
+          <h3>Qiita</h3>
+          <p>inoue2002</p>
+          <h3>speakerdeck</h3>
+          <p >inoue2002</p>
         </div>
       </div>
-      <div class="mb-3">
-        <label for="exampleInputName1" class="form-label">お名前</label>
-        <input type="text" class="form-control" id="exampleInputName1" />
-      </div>
-
-      <a href="thank.html" class="btn btn-primary"
-        >送信</a
-      >
-      <div id="Help" class="form-text">
-        デモのため、実際にデータは送信されません。決定ボタンを押すと次の画面に遷移します。
-      </div>
-    </form>
-  </div>
-</body>
+    </div>
+  </body>
 </html>
 <style></style>
